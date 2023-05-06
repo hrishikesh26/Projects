@@ -5,4 +5,5 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 <h2> How to create an S3 bucket </h2>
 <p>Step1.
 Search for S3 service in AWS and click on create bucket option. </p>
-<img width="154" alt="img" src="https://github.com/hrishikesh26/Projects/blob/main/AWS/Create%20S3%20bucket/Images/Successfully%20created%20the%20bucket.png")
+
+![s3 main page](https://user-images.githubusercontent.com/94166344/236614303-9dda1e67-97b6-490e-b39b-4bb56bb50b21.png)
