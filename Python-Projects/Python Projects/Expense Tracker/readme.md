@@ -28,3 +28,8 @@ The final project will consist of 2 files:
 ### Here the below screenshot displays that you are out of budget and this message is displayed in red colored text.
 ![Out of budget](https://github.com/hrishikesh26/Projects/assets/94166344/74e5ccc7-c5f5-41e4-b30d-fe54380ccee3)
 
+### Here's how the expenses will be shown in a .`csv` file - 
+![CSV](https://github.com/hrishikesh26/Projects/assets/94166344/d8e5cab8-231e-43ce-a0b0-e9fcd9612f2a)
+
+
+
