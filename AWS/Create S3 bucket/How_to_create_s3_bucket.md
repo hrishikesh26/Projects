@@ -124,6 +124,8 @@ want] >Permissions > checked Specify individual ACL permissions > Acknowledge th
 tag > upload.
 </p>
 
+![specify individual acl](https://github.com/hrishikesh26/Projects/assets/94166344/4ded5d59-067a-441a-a397-183be0b6c3c7)
+
 For checking whether the file is public or not
 Select the file in the bucket and click on copy url and paste url in web browser.
 
@@ -131,5 +133,8 @@ If you missed above settings at the time of file upload then follow below steps.
 select the file > actions > Make public using ACL > Make public.
 
 
+![make objects public](https://github.com/hrishikesh26/Projects/assets/94166344/678a0a37-5b78-4ef1-8322-908921f30073)
 
+Again cross check by selecting the file in the bucket and clicking on copy URL and paste URL in
+the web browser
 
