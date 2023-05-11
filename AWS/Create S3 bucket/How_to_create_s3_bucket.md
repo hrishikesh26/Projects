@@ -1,4 +1,4 @@
-<h2>S3
+# S3
 Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.</h2>
 
 
@@ -25,8 +25,10 @@ Keep everything as default
 Keep everything as default</li>
     <li>In the “Default encryption”
 Make Bucket Key as disable, and keep everything as default</li>
-</ul>![create bucket config](https://user-images.githubusercontent.com/94166344/236632471-969f4575-1319-4823-9952-241b17da3940.png)
+</ul>
 </p>
+
+![create bucket config](https://github.com/hrishikesh26/Projects/assets/94166344/8679bb12-62e7-4780-93f9-b5f01bebc9ec)
 
 <p>At last click on create bucket
   
@@ -45,10 +47,10 @@ you want] > upload.
 
 <h2># How to unable the bucket versioning.</h2>
 
-<p>$$$ While creating the new bucket do the settings the same as mentioned above’s Step2
+<p>1. While creating the new bucket do the settings the same as mentioned above’s Step2
 Just in the “Bucket Versioning”
-Enable the option of bucket versioning.
-$$$ If you want to enable versioning in the existing bucket, follow the instruction mentioned
+       Enable the option of bucket versioning.
+2. If you want to enable versioning in the existing bucket, follow the instruction mentioned
 below.
 [Name of Bucket] ”auniquebucketforpractice” > Properties > Bucket Versioning > edit > enable >
 save changes.</p>
@@ -56,9 +58,11 @@ save changes.</p>
 
 ![bucket versioning](https://user-images.githubusercontent.com/94166344/236632718-21c0b84a-ac24-4483-a6d0-527ccf8d7a3d.png)
 
-<p>After enabling versioning you can see all the versions of the same file that are up![view buckets](https://user-images.githubusercontent.com/94166344/236632758-06051e32-9549-4f43-a389-bc50bb09b946.png)
-loaded before.
+<p>After enabling versioning you can see all the versions of the same file that are uploaded before.
 </p>
+
+![view buckets](https://github.com/hrishikesh26/Projects/assets/94166344/cb7b154c-49cc-42aa-8e36-b5969bbfeddb)
+
 
 ------------------------------------------------------------------------------------------------
 
@@ -99,14 +103,14 @@ Step 2.
 In the "Object Ownership"
   Select the option as ACLs enabled
   
-  images.githubusercontent.com/94166344/236633001-764f7a9d-e511-4683-887e-54b0b0dc25f1.png)
+![object ACL](https://github.com/hrishikesh26/Projects/assets/94166344/7e08c6fb-1e6c-4122-b290-d74c85b28f83)
 
 In the “Block Public Access settings for this bucket”
 Unchecked the Block all Public Access
 And click on the acknowledgment of warning.
+</p>
 
-
-</p>![make objects public](https://user-images.githubusercontent.com/94166344/236633044-e77301d3-b44f-49f5-959f-04ffbfab915f.png)
+![block all public access](https://github.com/hrishikesh26/Projects/assets/94166344/8567e0c9-3a62-4489-943f-dca8d4100549)
 
 <p> In the “Bucket Versioning”
 Enable the bucket versioning.
@@ -120,6 +124,11 @@ want] >Permissions > checked Specify individual ACL permissions > Acknowledge th
 tag > upload.
 </p>
 
+For checking whether the file is public or not
+Select the file in the bucket and click on copy url and paste url in web browser.
+
+If you missed above settings at the time of file upload then follow below steps.
+select the file > actions > Make public using ACL > Make public.
 
 
 
