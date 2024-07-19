@@ -1,4 +1,4 @@
-<h1> This experiment contains classification of Punch and Flex movements <h1>
+<h1> This experiment contains "SmartGesture: IoT-Enabled Hand Gesture Detection with Deep Learning" <h1>
 
 
 
